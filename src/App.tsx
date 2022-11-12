@@ -1,9 +1,13 @@
-import './main.css';
-import {Home} from './presentation/pages/home';
+import "./main.css";
+import { GlobalStyles } from "./presentation/components/atoms/globalStyles";
+import { Home } from "./presentation/pages/home";
 
 function App() {
   return (
-    <Home />
+    <>
+      <GlobalStyles />
+      <Home />
+    </>
   );
 }
 

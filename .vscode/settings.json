@@ -1,8 +1,8 @@
 {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "jest.rootPath": "client"
-  }
-  
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "jest.rootPath": "client",
+  "jest.jestCommandLine": "npm t"
+}
