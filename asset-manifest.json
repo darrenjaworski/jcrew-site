@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a939e2f8.css",
-    "main.js": "/static/js/main.69b0b5d4.js",
-    "static/js/787.2de2c314.chunk.js": "/static/js/787.2de2c314.chunk.js",
-    "static/media/julianne-hero.jpg": "/static/media/julianne-hero.4064253578341bd633ca.jpg",
-    "index.html": "/index.html",
-    "main.a939e2f8.css.map": "/static/css/main.a939e2f8.css.map",
-    "main.69b0b5d4.js.map": "/static/js/main.69b0b5d4.js.map",
-    "787.2de2c314.chunk.js.map": "/static/js/787.2de2c314.chunk.js.map"
+    "main.css": "https://darrenjaworski.github.io/jcrew-site/static/css/main.d5830bdc.css",
+    "main.js": "https://darrenjaworski.github.io/jcrew-site/static/js/main.962f889b.js",
+    "static/js/787.2de2c314.chunk.js": "https://darrenjaworski.github.io/jcrew-site/static/js/787.2de2c314.chunk.js",
+    "static/media/julianne-hero.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/julianne-hero.4064253578341bd633ca.jpg",
+    "index.html": "https://darrenjaworski.github.io/jcrew-site/index.html",
+    "main.d5830bdc.css.map": "https://darrenjaworski.github.io/jcrew-site/static/css/main.d5830bdc.css.map",
+    "main.962f889b.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/main.962f889b.js.map",
+    "787.2de2c314.chunk.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/787.2de2c314.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a939e2f8.css",
-    "static/js/main.69b0b5d4.js"
+    "static/css/main.d5830bdc.css",
+    "static/js/main.962f889b.js"
   ]
 }
