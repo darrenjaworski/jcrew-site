@@ -3,17 +3,25 @@ export const Biography = () => {
     <section className="julianne_biography container row" id="biography">
       <div className="split block-padding red">
         <p data-testid="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. At
-          ultrices mi tempus imperdiet nulla malesuada. Cursus vitae congue
-          mauris rhoncus aenean vel. Vel risus commodo viverra maecenas
-          accumsan. Enim neque volutpat ac tincidunt vitae semper quis lectus
-          nulla. Semper risus in hendrerit gravida rutrum quisque non tellus
-          orci. Amet risus nullam eget felis. Ornare suspendisse sed nisi lacus
-          sed viverra tellus in. Tortor at risus viverra adipiscing at in.
-          Gravida neque convallis a cras semper. Gravida rutrum quisque non
-          tellus orci ac auctor.
+          I’m Julianne Reynolds, an Oklahoma City-based singer, actor and voice
+          teacher. I am passionate about performing across styles and have
+          experience in plays, operas, musical theater, choral singing, and
+          theater for young audiences. I am happiest when I’m collaborating with
+          other artists on and off stage, in the rehearsal room, or in the voice
+          studio.
         </p>
+        <p>
+          I am always looking for new opportunities to connect and grow as an
+          artist. Reach out to me if you’d like to collaborate! I am currently
+          available to work in the following areas:
+        </p>
+        <ul>
+          <li>Performing live in musicals, operas, plays and concerts</li>
+          <li>Acting on film or television</li>
+          <li>Opportunities to assistant direct stage musicals or plays</li>
+          <li>Voice acting and voice over work</li>
+          <li>Teaching voice lessons virtually or in person</li>
+        </ul>
       </div>
       <div className="split container row justify-centered align-items-center">
         <h2 data-testid="bio-title">Biography</h2>

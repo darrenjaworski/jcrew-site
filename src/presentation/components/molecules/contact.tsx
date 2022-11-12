@@ -17,12 +17,19 @@ export const Contact = () => {
           </p>
         </div>
         <div className="contact_block">
-          <h3>I'm free to teach</h3>
-          <p>$50 an hour. $25 a half hour.</p>
+          <h3>Voice Lessons</h3>
+          <p>
+            I am available to teach private lessons in person or virtually, and
+            am a proud affiliate of Kismet Arts Collective OKC
+          </p>
+          <p>
+            I have experience teaching students of all ages and across multiple
+            styles of singing.
+          </p>
         </div>
         <div className="contact_block">
           <h3>Representation</h3>
-          <p>Link to my resume...</p>
+          {/* TODO need a PDF for her CV */}
         </div>
       </div>
     </section>
