@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://darrenjaworski.github.io/jcrew-site/static/css/main.08686e20.css",
-    "main.js": "https://darrenjaworski.github.io/jcrew-site/static/js/main.2f3a01c4.js",
+    "main.css": "https://darrenjaworski.github.io/jcrew-site/static/css/main.928699fc.css",
+    "main.js": "https://darrenjaworski.github.io/jcrew-site/static/js/main.d505cc69.js",
     "static/js/787.2de2c314.chunk.js": "https://darrenjaworski.github.io/jcrew-site/static/js/787.2de2c314.chunk.js",
     "static/media/julianne-hero.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/julianne-hero.4064253578341bd633ca.jpg",
     "static/media/slick.svg": "https://darrenjaworski.github.io/jcrew-site/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -9,12 +9,12 @@
     "static/media/slick.ttf": "https://darrenjaworski.github.io/jcrew-site/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "https://darrenjaworski.github.io/jcrew-site/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://darrenjaworski.github.io/jcrew-site/index.html",
-    "main.08686e20.css.map": "https://darrenjaworski.github.io/jcrew-site/static/css/main.08686e20.css.map",
-    "main.2f3a01c4.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/main.2f3a01c4.js.map",
+    "main.928699fc.css.map": "https://darrenjaworski.github.io/jcrew-site/static/css/main.928699fc.css.map",
+    "main.d505cc69.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/main.d505cc69.js.map",
     "787.2de2c314.chunk.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/787.2de2c314.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08686e20.css",
-    "static/js/main.2f3a01c4.js"
+    "static/css/main.928699fc.css",
+    "static/js/main.d505cc69.js"
   ]
 }
