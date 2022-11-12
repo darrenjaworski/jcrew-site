@@ -1,31 +1,4 @@
 /* TODO split to global styles and then break into emotion styled components */
-nav {
-  position: fixed;
-  background-color: rgba(255, 255, 255, 0.6);
-  width: 100%;
-  z-index: 1;
-}
-
-nav .blur {
-  filter: blur(20px);
-}
-
-nav ul {
-  padding: 0;
-  margin: 1rem 0;
-  list-style: none;
-}
-
-nav ul li {
-  margin: 0 4rem;
-}
-
-nav ul li a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.5em;
-  font-family: "Playfair Display", serif;
-}
 
 footer {
   background-color: #03506b;
