@@ -1,12 +1,4 @@
 /* TODO split to global styles and then break into emotion styled components */
-.julianne_welcome {
-  height: 100%;
-  max-height: 1000px;
-  background-image: url(./presentation/imgs/julianne-hero.jpg);
-  background-size: cover;
-  position: relative;
-}
-
 nav {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.6);
