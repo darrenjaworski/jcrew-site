@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "https://darrenjaworski.github.io/jcrew-site/static/css/main.928699fc.css",
-    "main.js": "https://darrenjaworski.github.io/jcrew-site/static/js/main.d505cc69.js",
+    "main.css": "https://darrenjaworski.github.io/jcrew-site/static/css/main.fe7b9648.css",
+    "main.js": "https://darrenjaworski.github.io/jcrew-site/static/js/main.2d7278ea.js",
     "static/js/787.2de2c314.chunk.js": "https://darrenjaworski.github.io/jcrew-site/static/js/787.2de2c314.chunk.js",
-    "static/media/julianne-hero.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/julianne-hero.4064253578341bd633ca.jpg",
+    "static/media/carousel.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/carousel.41d950c54380c1f240ab.jpg",
+    "static/media/masterclass.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/masterclass.a16f1f3dcd027a82e713.jpg",
+    "static/media/carousel.png": "https://darrenjaworski.github.io/jcrew-site/static/media/carousel.3883440cdec3a323e0d6.png",
+    "static/media/paseo.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/paseo.4064253578341bd633ca.jpg",
+    "static/media/oklahoma.png": "https://darrenjaworski.github.io/jcrew-site/static/media/oklahoma.43d9535e7d8d17dc5929.png",
+    "static/media/yes.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/yes.da61e9dfdbcca96fe844.jpg",
+    "static/media/christmas.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/christmas.d9cb7e7666ee4f053e4b.jpg",
     "static/media/slick.svg": "https://darrenjaworski.github.io/jcrew-site/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "https://darrenjaworski.github.io/jcrew-site/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "https://darrenjaworski.github.io/jcrew-site/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "https://darrenjaworski.github.io/jcrew-site/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://darrenjaworski.github.io/jcrew-site/index.html",
-    "main.928699fc.css.map": "https://darrenjaworski.github.io/jcrew-site/static/css/main.928699fc.css.map",
-    "main.d505cc69.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/main.d505cc69.js.map",
+    "main.fe7b9648.css.map": "https://darrenjaworski.github.io/jcrew-site/static/css/main.fe7b9648.css.map",
+    "main.2d7278ea.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/main.2d7278ea.js.map",
     "787.2de2c314.chunk.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/787.2de2c314.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.928699fc.css",
-    "static/js/main.d505cc69.js"
+    "static/css/main.fe7b9648.css",
+    "static/js/main.2d7278ea.js"
   ]
 }
