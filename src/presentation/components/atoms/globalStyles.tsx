@@ -40,7 +40,8 @@ const styles = css`
   h3 {
     font-size: 2.6rem;
   }
-  p {
+  p,
+  li {
     font-size: 1.2rem;
     line-height: 1.3;
   }
