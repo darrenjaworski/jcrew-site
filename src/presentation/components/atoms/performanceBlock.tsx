@@ -26,7 +26,7 @@ const TextContainer = styled.div`
 
 const PerformanceHeading = styled.h4<{ mode: SlideMode }>`
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   letter-spacing: 2px;
   color: ${(props) => (props.mode === SlideMode.dark ? "white" : "black")};
 `;

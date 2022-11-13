@@ -1,6 +1,9 @@
 export const Biography = () => {
   return (
-    <section className="julianne_biography container row" id="biography">
+    <section
+      className="julianne_biography container row flip-mobile"
+      id="biography"
+    >
       <div className="split block-padding red">
         <p data-testid="bio-text">
           I’m Julianne Reynolds, an Oklahoma City-based singer, actor and voice

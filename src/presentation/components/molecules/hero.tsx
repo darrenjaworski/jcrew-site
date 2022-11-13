@@ -18,7 +18,35 @@ const HeroBGImage = styled.section<HeroImageProps>`
   position: relative;
 `;
 
-const BG_LOOP_TIME = 6000;
+const HeroHeading = styled.h1`
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+  @media (max-width: 750px) {
+    font-size: 2.5rem;
+  }
+`;
+const HeroSubHeading = styled.h3`
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+  @media (max-width: 750px) {
+    font-size: 2rem;
+  }
+`;
+const HeroTextContainer = styled.div`
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, 30%);
+  @media (max-width: 1000px) {
+    transform: translate(30%, 30%);
+  }
+  @media (max-width: 750px) {
+    transform: translate(1rem, 10%);
+  }
+`;
+
+const BG_LOOP_TIME = 10000;
 
 export const Hero = () => {
   const [imageRef, setImageRef] = useState(0);
@@ -36,10 +64,10 @@ export const Hero = () => {
     // TODO update the bg image on a rotation
     // TODO add photo credits
     <HeroBGImage image={images[imageRef]}>
-      <div className="hero_text">
-        <h1 data-testid="hero-text">Julianne Reynolds</h1>
-        <h3>Performer & Teacher</h3>
-      </div>
+      <HeroTextContainer>
+        <HeroHeading data-testid="hero-text">Julianne Reynolds</HeroHeading>
+        <HeroSubHeading>Performer & Teacher</HeroSubHeading>
+      </HeroTextContainer>
     </HeroBGImage>
   );
 };

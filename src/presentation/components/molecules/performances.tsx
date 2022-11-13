@@ -8,6 +8,9 @@ const PerformancesSection = styled.section`
 
 const PerformancesHeading = styled.h2`
   margin: 0;
+  @media (max-width: 750px) {
+    margin-left: -2rem;
+  }
 `;
 
 export const Performances = () => {

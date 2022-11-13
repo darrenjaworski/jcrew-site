@@ -15,19 +15,6 @@ footer h2 {
   background-color: #03506b;
 }
 
-.hero_text {
-  position: absolute;
-  top: 50%;
-  transform: translate(50%, 30%);
-}
-
-.hero_text h1,
-.hero_text h3 {
-  line-height: 1.5;
-  margin: 0;
-  font-weight: 400;
-}
-
 .julianne_biography,
 .julianne_contact {
   position: relative;
@@ -104,4 +91,24 @@ footer h2 {
 }
 
 .contact_block p {
+}
+
+@media (max-width: 750px) {
+  .row {
+    flex-direction: column;
+  }
+  .split {
+    width: 100%;
+    max-width: 100%;
+  }
+  .flip-mobile {
+    flex-direction: column-reverse;
+  }
+  .align-items-center {
+    align-items: flex-start;
+    padding-left: 1rem;
+  }
+  .block-padding {
+    padding: 1rem;
+  }
 }
