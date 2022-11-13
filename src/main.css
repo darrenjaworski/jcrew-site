@@ -85,34 +85,8 @@ footer h2 {
   background-color: #fecac1;
 }
 
-.julianne_performances {
-  background-color: #03506b;
-  padding: 3rem 0 3rem 3rem;
-}
-
 .white {
   color: white;
-}
-
-.performance_heading {
-  margin: 0;
-}
-
-.performance_blocks {
-  padding: 0;
-  list-style: none;
-  width: 100%;
-  overflow: auto;
-  white-space: nowrap;
-  margin-top: 3rem;
-}
-
-.performance_block {
-  min-height: 500px;
-  background: #f5f4ca;
-  width: 250px;
-  margin-right: 4rem;
-  float: left;
 }
 
 .contact_block {

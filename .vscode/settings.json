@@ -4,5 +4,5 @@
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "jest.rootPath": "client",
-  "jest.jestCommandLine": "npm t"
+  "jest.jestCommandLine": "npm t --"
 }
