@@ -44,7 +44,7 @@ export const PerformanceText = styled.p<{ mode: SlideMode }>`
 interface PerformanceBlockProps extends Performance {}
 
 export const PerformanceBlock = (props: PerformanceBlockProps) => {
-  const { heading, description, date, img, mode } = props;
+  const { heading, description, date, img, mode } = props;  
   return (
     <StyledPerformanceContainer img={img}>
       <ImageBackground img={img} />

@@ -4,7 +4,22 @@ import carousel from "../../imgs/carousel.jpg";
 import masterclass from "../../imgs/masterclass.jpg";
 import paseoHero from "../../imgs/paseo.jpg";
 
-const images = [paseoHero, carousel, masterclass];
+enum HeroImageMode {
+  light,
+  dark,
+}
+
+interface ImageData {
+  url: string;
+  credit: JSX.Element | string;
+  mode: HeroImageMode;
+}
+
+const images: ImageData[] = [
+  { url: paseoHero, credit: "Heather", mode: HeroImageMode.light },
+  { url: carousel, credit: "Some Credits...", mode: HeroImageMode.dark },
+  { url: masterclass, credit: "Some More Credits", mode: HeroImageMode.light },
+];
 
 interface HeroImageProps {
   image: string;
@@ -18,18 +33,20 @@ const HeroBGImage = styled.section<HeroImageProps>`
   position: relative;
 `;
 
-const HeroHeading = styled.h1`
+const HeroHeading = styled.h1<{ mode: HeroImageMode }>`
   line-height: 1.5;
   margin: 0;
   font-weight: 400;
+  color: ${(props) => (props.mode === HeroImageMode.dark ? "white" : "black")};
   @media (max-width: 750px) {
     font-size: 2.5rem;
   }
 `;
-const HeroSubHeading = styled.h3`
+const HeroSubHeading = styled.h3<{ mode: HeroImageMode }>`
   line-height: 1.5;
   margin: 0;
   font-weight: 400;
+  color: ${(props) => (props.mode === HeroImageMode.dark ? "white" : "black")};
   @media (max-width: 750px) {
     font-size: 2rem;
   }
@@ -46,6 +63,16 @@ const HeroTextContainer = styled.div`
   }
 `;
 
+const HeroImageCredit = styled.div`
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: black;
+  background: white;
+  padding: 0.25rem;
+  opacity: 0.25;
+`;
+
 const BG_LOOP_TIME = 10000;
 
 export const Hero = () => {
@@ -60,14 +87,17 @@ export const Hero = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const { url, mode, credit } = images[imageRef];
+
   return (
-    // TODO update the bg image on a rotation
-    // TODO add photo credits
-    <HeroBGImage image={images[imageRef]}>
+    <HeroBGImage image={url}>
       <HeroTextContainer>
-        <HeroHeading data-testid="hero-text">Julianne Reynolds</HeroHeading>
-        <HeroSubHeading>Performer & Teacher</HeroSubHeading>
+        <HeroHeading mode={mode} data-testid="hero-text">
+          Julianne Reynolds
+        </HeroHeading>
+        <HeroSubHeading mode={mode}>Performer & Teacher</HeroSubHeading>
       </HeroTextContainer>
+      <HeroImageCredit>{credit}</HeroImageCredit>
     </HeroBGImage>
   );
 };
