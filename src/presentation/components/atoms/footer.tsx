@@ -1,7 +1,10 @@
 import styled from "@emotion/styled";
 
 const FooterElement = styled.footer`
-  background-color: #03506b;
+  background-color: ${(props) => {
+    // @ts-ignore
+    return props.theme.colors.primary;
+  }};
   padding: 3rem 0;
 `;
 

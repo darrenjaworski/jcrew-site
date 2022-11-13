@@ -1,12 +1,13 @@
-import { css, Global } from "@emotion/react";
+import { css, Global, useTheme } from "@emotion/react";
 
-const styles = css`
+//@ts-ignore
+const getStyles = (theme) => css`
   * {
     box-sizing: border-box;
   }
   html {
     font-family: "Karla", serif;
-    background-color: #d2dfd6;
+    background-color: ${theme.colors.tertiary};
   }
 
   body {
@@ -45,8 +46,12 @@ const styles = css`
     font-size: 1.2rem;
     line-height: 1.3;
   }
+  a {
+    color: black;
+  }
 `;
 
 export const GlobalStyles = () => {
-  return <Global styles={styles} />;
+  const theme = useTheme();
+  return <Global styles={getStyles(theme)} />;
 };

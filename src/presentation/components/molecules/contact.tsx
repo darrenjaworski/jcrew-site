@@ -1,10 +1,25 @@
+import styled from "@emotion/styled";
+
+const ContactContainer = styled.div`
+  width: 50%;
+  max-width: 50%;
+  display: inline-block;
+  display: flex;
+  background-color: ${(props) => {
+    // @ts-ignore
+    return props.theme.colors.secondary;
+  }};
+  flex-direction: column;
+  padding: 3rem;
+`;
+
 export const Contact = () => {
   return (
     <section className="julianne_contact container row" id="contact">
       <div className="split container row justify-centered align-items-center">
         <h2>Contact</h2>
       </div>
-      <div className="split container column red block-padding">
+      <ContactContainer>
         <div className="contact_block">
           <h3>Reach Me</h3>
           <p>
@@ -31,7 +46,7 @@ export const Contact = () => {
           <h3>Representation</h3>
           {/* TODO need a PDF for her CV */}
         </div>
-      </div>
+      </ContactContainer>
     </section>
   );
 };

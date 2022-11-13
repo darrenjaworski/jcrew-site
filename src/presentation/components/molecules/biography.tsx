@@ -1,10 +1,23 @@
+import styled from "@emotion/styled";
+
+const BiographyContainer = styled.div`
+  width: 50%;
+  max-width: 50%;
+  display: inline-block;
+  padding: 3rem;
+  background-color: ${(props) => {
+    // @ts-ignore
+    return props.theme.colors.secondary;
+  }};
+`;
+
 export const Biography = () => {
   return (
     <section
       className="julianne_biography container row flip-mobile"
       id="biography"
     >
-      <div className="split block-padding red">
+      <BiographyContainer>
         <p data-testid="bio-text">
           I’m Julianne Reynolds, an Oklahoma City-based singer, actor and voice
           teacher. I am passionate about performing across styles and have
@@ -25,7 +38,7 @@ export const Biography = () => {
           <li>Voice acting and voice over work</li>
           <li>Teaching voice lessons virtually or in person</li>
         </ul>
-      </div>
+      </BiographyContainer>
       <div className="split container row justify-centered align-items-center">
         <h2 data-testid="bio-title">Biography</h2>
       </div>
