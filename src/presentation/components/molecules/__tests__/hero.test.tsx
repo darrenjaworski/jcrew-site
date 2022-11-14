@@ -1,9 +1,10 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
+import { renderComponentWithTheme } from "../../../../test-config/renderComponentWith";
 import { Hero } from "../hero";
 
 describe("Hero", () => {
   it("renders Hero text", () => {
-    render(<Hero />);
+    renderComponentWithTheme(<Hero />);
     const welcomeText = screen.getByTestId("hero-text");
 
     expect(welcomeText).toBeInTheDocument();

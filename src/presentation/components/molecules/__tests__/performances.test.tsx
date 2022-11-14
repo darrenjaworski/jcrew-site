@@ -1,9 +1,10 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
+import { renderComponentWithTheme } from "../../../../test-config/renderComponentWith";
 import { Performances } from "../performances";
 
 describe("Performances", () => {
   it("renders Performances text", () => {
-    render(<Performances />);
+    renderComponentWithTheme(<Performances />);
     const performancesTitle = screen.getByTestId("performances-title");
 
     expect(performancesTitle).toBeInTheDocument();

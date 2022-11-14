@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
-import hexRgb from "hex-rgb";
 import React, { useEffect, useState } from "react";
 import useWindowSize from "react-use/lib/useWindowSize";
+import hexRgb from "hex-rgb";
 
 const Nav = styled.nav<{ opacity: number }>`
   position: fixed;
@@ -69,7 +69,7 @@ export const Navigation = () => {
     return () => {
       window.removeEventListener("keydown", didScrollPage);
     };
-  }, []);
+  }, [height]);
   return (
     // @ts-ignore
     <Nav ref={headerRef} opacity={opacity}>

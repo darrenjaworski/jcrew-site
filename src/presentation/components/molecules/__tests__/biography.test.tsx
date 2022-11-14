@@ -1,9 +1,10 @@
-import { render, screen } from "@testing-library/react";
+import { screen } from "@testing-library/react";
+import { renderComponentWithTheme } from "../../../../test-config/renderComponentWith";
 import { Biography } from "../biography";
 
 describe("biography", () => {
   it("renders bio text", () => {
-    render(<Biography />);
+    renderComponentWithTheme(<Biography />);
     const title = screen.getByTestId("bio-title");
     const bioText = screen.getByTestId("bio-text");
 
