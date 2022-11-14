@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://darrenjaworski.github.io/jcrew-site/static/css/main.05997480.css",
-    "main.js": "https://darrenjaworski.github.io/jcrew-site/static/js/main.8ea13dc4.js",
+    "main.js": "https://darrenjaworski.github.io/jcrew-site/static/js/main.7cfd0edc.js",
     "static/js/787.2de2c314.chunk.js": "https://darrenjaworski.github.io/jcrew-site/static/js/787.2de2c314.chunk.js",
     "static/media/carousel.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/carousel.41d950c54380c1f240ab.jpg",
     "static/media/masterclass.jpg": "https://darrenjaworski.github.io/jcrew-site/static/media/masterclass.a16f1f3dcd027a82e713.jpg",
@@ -16,11 +16,11 @@
     "static/media/slick.woff": "https://darrenjaworski.github.io/jcrew-site/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://darrenjaworski.github.io/jcrew-site/index.html",
     "main.05997480.css.map": "https://darrenjaworski.github.io/jcrew-site/static/css/main.05997480.css.map",
-    "main.8ea13dc4.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/main.8ea13dc4.js.map",
+    "main.7cfd0edc.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/main.7cfd0edc.js.map",
     "787.2de2c314.chunk.js.map": "https://darrenjaworski.github.io/jcrew-site/static/js/787.2de2c314.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05997480.css",
-    "static/js/main.8ea13dc4.js"
+    "static/js/main.7cfd0edc.js"
   ]
 }
