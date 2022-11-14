@@ -49,6 +49,66 @@ const getStyles = (theme) => css`
   a {
     color: black;
   }
+  .split {
+    width: 50%;
+    max-width: 50%;
+    display: inline-block;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .justify-centered {
+    justify-content: center;
+  }
+
+  .align-items-center {
+    align-items: center;
+  }
+
+  .red {
+    background-color: #fecac1;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .contact_block {
+    margin-bottom: 2rem;
+  }
+
+  .contact_block:last-child {
+    margin-bottom: 0;
+  }
+
+  .contact_block h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  @media (max-width: 750px) {
+    .row {
+      flex-direction: column;
+    }
+    .split {
+      width: 100%;
+      max-width: 100%;
+    }
+    .flip-mobile {
+      flex-direction: column-reverse;
+    }
+    .align-items-center {
+      align-items: flex-start;
+      padding-left: 1rem;
+    }
+  }
 `;
 
 export const GlobalStyles = () => {
