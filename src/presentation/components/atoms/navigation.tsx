@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
+import hexRgb from "hex-rgb";
 import React, { useEffect, useState } from "react";
 import useWindowSize from "react-use/lib/useWindowSize";
-import hexRgb from "hex-rgb";
 
 const Nav = styled.nav<{ opacity: number }>`
   position: fixed;
@@ -32,6 +32,9 @@ const NavListItem = styled.li`
   }
   @media (max-width: 500px) {
     margin: 0 2rem;
+  }
+  @media (max-width: 400px) {
+    margin: 0 1.25rem;
   }
 `;
 

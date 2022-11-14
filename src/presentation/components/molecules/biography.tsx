@@ -9,6 +9,11 @@ const BiographyContainer = styled.div`
     // @ts-ignore
     return props.theme.colors.secondary;
   }};
+  @media (max-width: 750px) {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+  }
 `;
 
 export const Biography = () => {

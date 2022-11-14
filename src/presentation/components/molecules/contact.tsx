@@ -11,6 +11,11 @@ const ContactContainer = styled.div`
   }};
   flex-direction: column;
   padding: 3rem;
+  @media (max-width: 750px) {
+    width: 100%;
+    max-width: 100%;
+    padding: 1rem;
+  }
 `;
 
 export const Contact = () => {
