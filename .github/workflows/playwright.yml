@@ -26,6 +26,9 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run Playwright tests
         run: npx playwright test
+        with:
+          CI: true
+          PLAYWRIGHT_URL: https://julianne.media
       - uses: actions/upload-artifact@v3
         if: always()
         with:
