@@ -2,6 +2,7 @@
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
+import { matchers } from "@emotion/jest";
 import "@testing-library/jest-dom";
 
 window.matchMedia =
@@ -13,3 +14,5 @@ window.matchMedia =
       removeListener: function () {},
     };
   };
+
+expect.extend(matchers);

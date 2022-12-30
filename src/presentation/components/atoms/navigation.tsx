@@ -1,17 +1,8 @@
 import styled from "@emotion/styled";
-import hexRgb from "hex-rgb";
-import React, { useEffect, useState } from "react";
-import useWindowSize from "react-use/lib/useWindowSize";
 
-const Nav = styled.nav<{ opacity: number }>`
+const Nav = styled.nav`
   position: fixed;
-  background-color: rgba(
-    ${(props) => {
-      // @ts-ignore
-      const rgb = hexRgb(props.theme.colors.secondary);
-      return `${rgb.red}, ${rgb.green}, ${rgb.blue}, ${props.opacity}`;
-    }}
-  );
+  background: white;
   width: 100%;
   z-index: 1;
 `;
@@ -48,34 +39,9 @@ const NavLink = styled.a`
   }
 `;
 
-const headerRef = React.createRef();
-
 export const Navigation = () => {
-  const [opacity, setOpacity] = useState(0.6);
-  const { height } = useWindowSize();
-
-  useEffect(() => {
-    // @ts-ignore
-    const didScrollPage = (_e) => {
-      const { scrollY } = window;
-      if (scrollY > height) {
-        setOpacity(1);
-        return;
-      }
-
-      const calc = 0.6;
-      setOpacity(calc);
-    };
-
-    window.addEventListener("scroll", didScrollPage);
-
-    return () => {
-      window.removeEventListener("keydown", didScrollPage);
-    };
-  }, [height]);
   return (
-    // @ts-ignore
-    <Nav ref={headerRef} opacity={opacity}>
+    <Nav data-testid={"navigation-container"}>
       <NavList>
         <NavListItem>
           <NavLink href="#biography">Biography</NavLink>
