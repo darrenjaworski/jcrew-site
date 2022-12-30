@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "@emotion/jest": "^11.10.5",
+    "@playwright/test": "^1.29.1",
     "@types/react-slick": "^0.23.10"
   }
 }
