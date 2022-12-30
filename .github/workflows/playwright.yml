@@ -29,9 +29,3 @@ jobs:
         env:
           CI: true
           PLAYWRIGHT_URL: https://julianne.media
-      - uses: actions/upload-artifact@v3
-        if: always()
-        with:
-          name: playwright-report
-          path: playwright-report/
-          retention-days: 30
