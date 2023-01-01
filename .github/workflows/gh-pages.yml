@@ -23,7 +23,7 @@ jobs:
           cache: "npm"
           cache-dependency-path: package-lock.json
       - run: npm ci
-      - run: PUBLIC_URL="https://darrenjaworski.github.io/jcrew-site/" npm run build
+      - run: PUBLIC_URL="https://julianne.media" npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
