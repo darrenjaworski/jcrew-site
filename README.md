@@ -1,3 +1,7 @@
+[![playwright](https://github.com/darrenjaworski/jcrew-site/actions/workflows/playwright.yml/badge.svg)](https://github.com/darrenjaworski/jcrew-site/actions/workflows/playwright.yml)
+
+[![tests](https://github.com/darrenjaworski/jcrew-site/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/darrenjaworski/jcrew-site/actions/workflows/unit-tests.yml)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
