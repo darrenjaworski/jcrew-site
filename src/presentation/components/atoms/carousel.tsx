@@ -28,18 +28,22 @@ export interface Performance {
 }
 
 const SliderButton = styled.button`
-  padding: 0.4rem 0.5rem;
-  background-color: white;
-  border: 1px solid black;
-  transition: all 0.2s;
-  &:hover {
-    background-color: ${(props) => {
+    padding: 0.4rem 0.5rem;
+    background-color: white;
+    border: ${(props) => {
       // @ts-ignore
-      return props.theme.colors.primary;
-    }};
-    color: white;
-    border-color: white;
-  }
+      return `1px solid ${props.theme.colors.secondary};`;
+    }}
+    transition: all 0.2s;
+    color: black;
+    &:hover {
+        background-color: ${(props) => {
+          // @ts-ignore
+          return props.theme.colors.primary;
+        }};
+        color: white;
+        border-color: white;
+    }
 `;
 
 const performances: Performance[] = [
