@@ -42,7 +42,7 @@ export const Biography = () => {
           <li>Opportunities to assistant direct stage musicals or plays</li>
           <li>Voice acting and voice over work</li>
           <li>Teaching voice lessons virtually or in person</li>
-          <li>Workshopping and performance new works</li>
+          <li>Workshopping and performing new works</li>
         </ul>
       </BiographyContainer>
       <div className="split container row justify-centered align-items-center">
