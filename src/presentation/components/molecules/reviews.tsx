@@ -45,9 +45,9 @@ export const Reviews = () => {
           </a>
         </p>
         <p>
-          Caskey and Reynolds... establish both a crackling chemistry and their
-          vocal chops with 'If I loved You'... and she lifts the wistful 'What's
-          the Use of Wond'rin' to great heights." -{" "}
+          "Caskey and Reynolds... establish both a crackling chemistry and their
+          vocal chops with <i>If I loved You</i>... and she lifts the wistful <i>What's
+          the Use of Wond'rin</i> to great heights." -{" "}
           <a
             href="https://www.oklahoman.com/story/entertainment/2022/07/08/dazzling-classic-carousel-worth-a-whirl-for-okc-musical-theater-fans/65368129007/"
             target="_blank"

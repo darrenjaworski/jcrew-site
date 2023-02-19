@@ -17,15 +17,15 @@ const NavList = styled.ul`
 `;
 
 const NavListItem = styled.li`
-  margin: 0 4rem;
+  margin: 0 3rem;
   @media (max-width: 750px) {
-    margin: 0 3rem;
-  }
-  @media (max-width: 500px) {
     margin: 0 2rem;
   }
+  @media (max-width: 500px) {
+    margin: 0 1rem;
+  }
   @media (max-width: 400px) {
-    margin: 0 1.25rem;
+    margin: 0 0.75rem;
   }
 `;
 
