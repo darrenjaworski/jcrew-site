@@ -47,6 +47,9 @@ export const Navigation = () => {
           <NavLink href="#biography">Biography</NavLink>
         </NavListItem>
         <NavListItem>
+          <NavLink href="#reviews">Reviews</NavLink>
+        </NavListItem>
+        <NavListItem>
           <NavLink href="#performances">Performances</NavLink>
         </NavListItem>
         <NavListItem>

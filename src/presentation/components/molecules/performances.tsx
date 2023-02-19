@@ -4,7 +4,7 @@ import { Carousel } from "../atoms/carousel";
 const PerformancesSection = styled.section`
   background-color: ${(props) => {
     // @ts-ignore
-    return props.theme.colors.primary;
+    return props.theme.colors.secondary;
   }};
   padding: 3rem 0 3rem 3rem;
 `;
@@ -18,9 +18,9 @@ const PerformancesHeading = styled.h2`
 
 export const Performances = () => {
   return (
-    <PerformancesSection className="julianne_performances" id="performances">
+    <PerformancesSection id="performances">
       <PerformancesHeading
-        className="white performance_heading"
+        className=" performance_heading"
         data-testid="performances-title"
       >
         Performances

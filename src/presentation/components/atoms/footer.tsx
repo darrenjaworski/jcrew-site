@@ -6,6 +6,7 @@ const FooterElement = styled.footer`
     return props.theme.colors.primary;
   }};
   padding: 3rem 0;
+  border-top: 1px solid white;
 `;
 
 const FooterHeading = styled.h2`
@@ -18,7 +19,7 @@ const FooterHeading = styled.h2`
 export const Footer = () => {
   return (
     <FooterElement>
-      <FooterHeading className="white">Julianne Reynolds</FooterHeading>
+      <FooterHeading>Julianne Reynolds</FooterHeading>
     </FooterElement>
   );
 };
