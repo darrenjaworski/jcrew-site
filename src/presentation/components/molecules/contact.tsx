@@ -26,7 +26,7 @@ export const Contact = () => {
       </div>
       <ContactContainer>
         <div className="contact_block">
-          <h3>Performance Resume</h3>
+          <h3>Performance Résumé</h3>
           <p>
             <a
               href="https://drive.google.com/file/d/1LK7qLjydexOK7Q2PtXc1nL1cg8gJfNui/view?usp=sharing"
@@ -34,7 +34,7 @@ export const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Download Performance Resume
+              Download my Performance Résumé
             </a>
           </p>
         </div>
