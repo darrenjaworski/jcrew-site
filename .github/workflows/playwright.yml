@@ -5,8 +5,10 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  push:
-    branches: [main]
+  workflow_run:
+    workflows: [gh page deploy]
+    types: 
+      - completed
   schedule:
     - cron: 0 */2 * * *
   workflow_dispatch:
