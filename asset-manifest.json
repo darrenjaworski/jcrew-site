@@ -1,27 +1,23 @@
 {
   "files": {
-    "main.css": "https://julianne.media/static/css/main.4a1aa7da.css",
-    "main.js": "https://julianne.media/static/js/main.5a8d5b75.js",
+    "main.css": "https://julianne.media/static/css/main.e0a762b5.css",
+    "main.js": "https://julianne.media/static/js/main.4184da67.js",
     "static/js/787.2de2c314.chunk.js": "https://julianne.media/static/js/787.2de2c314.chunk.js",
-    "static/media/carousel.png": "https://julianne.media/static/media/carousel.3883440cdec3a323e0d6.png",
-    "static/media/carousel.jpg": "https://julianne.media/static/media/carousel.87b1ca09b04113da61ee.jpg",
-    "static/media/masterclass.jpg": "https://julianne.media/static/media/masterclass.a16f1f3dcd027a82e713.jpg",
-    "static/media/oklahoma.png": "https://julianne.media/static/media/oklahoma.43d9535e7d8d17dc5929.png",
-    "static/media/yes.jpg": "https://julianne.media/static/media/yes.da61e9dfdbcca96fe844.jpg",
+    "static/media/carousel.jpg": "https://julianne.media/static/media/carousel.ed973ab7f20973d90d05.jpg",
+    "static/media/masterclass.jpg": "https://julianne.media/static/media/masterclass.9cc4e93834490888d34f.jpg",
+    "static/media/sound.jpg": "https://julianne.media/static/media/sound.1c465d73206782a18a35.jpg",
+    "static/media/backstage.jpg": "https://julianne.media/static/media/backstage.44044a94d3547c2eaf73.jpg",
+    "static/media/oklahoman.jpg": "https://julianne.media/static/media/oklahoman.dc844e0c6ecf77fd2c2d.jpg",
+    "static/media/phil.jpg": "https://julianne.media/static/media/phil.e173909842d20d024bd5.jpg",
     "static/media/bio-image.jpg": "https://julianne.media/static/media/bio-image.0bc0ef941aa61e7bad3d.jpg",
     "static/media/paseo.jpg": "https://julianne.media/static/media/paseo.27b7a389607d18bb8128.jpg",
-    "static/media/christmas.jpg": "https://julianne.media/static/media/christmas.d9cb7e7666ee4f053e4b.jpg",
-    "static/media/slick.svg": "https://julianne.media/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "https://julianne.media/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "https://julianne.media/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "https://julianne.media/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://julianne.media/index.html",
-    "main.4a1aa7da.css.map": "https://julianne.media/static/css/main.4a1aa7da.css.map",
-    "main.5a8d5b75.js.map": "https://julianne.media/static/js/main.5a8d5b75.js.map",
+    "main.e0a762b5.css.map": "https://julianne.media/static/css/main.e0a762b5.css.map",
+    "main.4184da67.js.map": "https://julianne.media/static/js/main.4184da67.js.map",
     "787.2de2c314.chunk.js.map": "https://julianne.media/static/js/787.2de2c314.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a1aa7da.css",
-    "static/js/main.5a8d5b75.js"
+    "static/css/main.e0a762b5.css",
+    "static/js/main.4184da67.js"
   ]
 }
