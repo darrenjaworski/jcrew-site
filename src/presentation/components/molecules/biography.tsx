@@ -26,6 +26,10 @@ const BioImage = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  @media (max-width: 750px) {
+    width: 15rem;
+    height: 15rem;
+  }
 `;
 
 export const Biography = () => {
