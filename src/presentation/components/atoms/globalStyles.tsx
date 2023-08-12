@@ -1,4 +1,5 @@
 import { css, Global, useTheme } from "@emotion/react";
+import "@nishanths/zoom.js/dist/zoom.css";
 
 //@ts-ignore
 const getStyles = (theme) => css`
@@ -43,7 +44,7 @@ const getStyles = (theme) => css`
   }
   p,
   li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.3;
   }
   a {

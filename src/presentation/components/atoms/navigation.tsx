@@ -13,7 +13,7 @@ const NavList = styled.ul`
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
 `;
 
 const NavListItem = styled.li`
@@ -47,10 +47,7 @@ export const Navigation = () => {
           <NavLink href="#biography">Biography</NavLink>
         </NavListItem>
         <NavListItem>
-          <NavLink href="#reviews">Reviews</NavLink>
-        </NavListItem>
-        <NavListItem>
-          <NavLink href="#performances">Performances</NavLink>
+          <NavLink href="#media">Media</NavLink>
         </NavListItem>
         <NavListItem>
           <NavLink href="#contact">Contact</NavLink>

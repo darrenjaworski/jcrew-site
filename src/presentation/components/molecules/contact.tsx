@@ -7,7 +7,7 @@ const ContactContainer = styled.div`
   display: flex;
   background-color: ${(props) => {
     // @ts-ignore
-    return props.theme.colors.primary;
+    return props.theme.colors.secondary;
   }};
   flex-direction: column;
   padding: 3rem;
@@ -20,7 +20,7 @@ const ContactContainer = styled.div`
 const ContactHeadingContainer = styled.div`
   background-color: ${(props) => {
     // @ts-ignore
-    return props.theme.colors.primary;
+    return props.theme.colors.secondary;
   }};
 `;
 
@@ -28,7 +28,7 @@ export const Contact = () => {
   return (
     <section className="julianne_contact container row" id="contact">
       <ContactHeadingContainer className="split container row justify-centered align-items-center">
-        <h2 className="white">Contact</h2>
+        <h2>Contact</h2>
       </ContactHeadingContainer>
       <ContactContainer>
         <div className="contact_block">

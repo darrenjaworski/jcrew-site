@@ -6,6 +6,7 @@ const BiographyContainer = styled.div`
   max-width: 50%;
   display: inline-block;
   padding: 3rem;
+  min-height: 35rem;
   background-color: ${(props) => {
     // @ts-ignore
     return props.theme.colors.secondary;
@@ -40,26 +41,26 @@ export const Biography = () => {
     >
       <BiographyContainer>
         <p data-testid="bio-text">
-          I’m Julianne Reynolds, an Oklahoma City-based singer, actor and voice
-          teacher. I am passionate about performing across styles and have
-          experience in plays, operas, musical theater, choral singing, and
-          theater for young audiences. I am happiest when I’m collaborating with
-          other artists on and off stage, in the rehearsal room, or in the voice
-          studio.
+          I’m Julianne, a New Mexico-raised, Oklahoma City University-trained
+          singer and teaching artist. I am a devotee of the craft of singing,
+          the therapeutic process of learning to take up space on stage, and the
+          transformative power of the individual and collective artist’s
+          journey. I love stepping up to a challenge and working on new
+          projects, and have made a professional career as a cross-genre
+          interpreter of plays, musicals, operas, and theatre for young
+          audiences. I live with natural curiosity and investment in the artists
+          around me, and believe in working in a way that brings out the best in
+          everyone. You can count on me to bring presence, ideas, hard work, and
+          inevitable silliness into every room.
         </p>
-        <p>
-          I am always looking for new opportunities to connect and grow as an
-          artist. Reach out to me if you’d like to collaborate! I am currently
-          available to work in the following areas:
-        </p>
-        <ul>
+        {/* <ul>
           <li>Performing live in musicals, operas, plays and concerts</li>
           <li>Acting on camera</li>
           <li>Opportunities to assistant direct stage musicals or plays</li>
           <li>Voice acting and voice over work</li>
           <li>Teaching voice lessons virtually or in person</li>
           <li>Workshopping and performing new works</li>
-        </ul>
+        </ul> */}
       </BiographyContainer>
       <div
         className="split container row justify-centered align-items-center"
