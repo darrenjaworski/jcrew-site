@@ -65,6 +65,26 @@ const VideoLayout = styled.div`
   // }
 `;
 
+const VideoHeading = styled.h4`
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+`;
+
+const IframeWrapper = styled.div`
+  overflow: hidden;
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+  }
+`;
+
 const Media = () => {
   return (
     <MediaSection id="media">
@@ -72,48 +92,54 @@ const Media = () => {
       <FlexContainer>
         <SplitLayout>
           <VideoLayout>
-            <h4>Vocal Reel</h4>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/3Vn0vHawSKU"
-              title="YouTube video player"
-              // @ts-ignore
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+            <VideoHeading>Vocal Reel</VideoHeading>
+            <IframeWrapper>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/3Vn0vHawSKU"
+                title="YouTube video player"
+                // @ts-ignore
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </IframeWrapper>
           </VideoLayout>
           <VideoLayout>
-            <h4>
+            <VideoHeading>
               "Never Enough" from <i>The Greatest Showman</i>
-            </h4>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/p80Cv-0bhMs"
-              title="YouTube video player"
-              // @ts-ignore
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+            </VideoHeading>
+            <IframeWrapper>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/p80Cv-0bhMs"
+                title="YouTube video player"
+                // @ts-ignore
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </IframeWrapper>
           </VideoLayout>
         </SplitLayout>
         <VideoLayout>
-          <h4>
+          <VideoHeading>
             "Bring Him Home" from <i>Les Misérables</i>
-          </h4>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/_9MoT6OwE_4"
-            title="YouTube video player"
-            // @ts-ignore
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+          </VideoHeading>
+          <IframeWrapper>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/_9MoT6OwE_4"
+              title="YouTube video player"
+              // @ts-ignore
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </IframeWrapper>
         </VideoLayout>
       </FlexContainer>
       <MediaHeading style={{ paddingTop: "6rem" }}>Media Gallery</MediaHeading>
