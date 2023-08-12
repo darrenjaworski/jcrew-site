@@ -116,7 +116,7 @@ const HeroImageCredit = styled.div`
   opacity: 0.25;
 `;
 
-const BG_LOOP_TIME = 3000;
+const BG_LOOP_TIME = 10000;
 const IMAGE_FADE_TIME = 600;
 
 export const Hero = () => {
