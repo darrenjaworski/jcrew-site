@@ -13,6 +13,9 @@ const MediaSection = styled.section`
     return props.theme.colors.primary;
   }};
   padding: 3rem;
+  @media (max-width: 750px) {
+    padding: 1rem;
+  }
 `;
 
 const FlexContainer = styled.div`
@@ -25,14 +28,14 @@ const SplitLayout = styled.div`
   display: flex;
   flex-direction: row;
   gap: 1rem 1rem;
+  @media (max-width: 950px) {
+    flex-direction: column;
+  }
 `;
 
 const MediaHeading = styled.h2`
   margin: 0;
   padding-bottom: 3rem;
-  @media (max-width: 750px) {
-    margin-left: -2rem;
-  }
 `;
 
 const CreditsHeading = styled.h4`
@@ -50,19 +53,21 @@ const CreditsList = styled.ol`
 
 const ReviewHighlight = styled.p`
   font-size: 2rem;
+  @media (max-width: 750px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const ItemCenter = styled.div`
   align-self: center;
   max-width: 75%;
+  @media (max-width: 750px) {
+    max-width: 100%;
+  }
 `;
 
 const VideoLayout = styled.div`
   width: 100%;
-  // > iframe {
-  //   width: 100%;
-  //   height: auto;
-  // }
 `;
 
 const VideoHeading = styled.h4`
@@ -162,7 +167,7 @@ const Media = () => {
             />
           </div>
         </SplitLayout>
-        <ItemCenter style={{ alignSelf: "center", maxWidth: "75%" }}>
+        <ItemCenter>
           <ReviewHighlight>
             "Caskey and Reynolds... establish both a crackling chemistry and
             their vocal chops with <i>If I loved You</i>... and she lifts the
