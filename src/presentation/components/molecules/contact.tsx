@@ -35,7 +35,7 @@ export const Contact = () => {
           <h3>Performance Résumé</h3>
           <p>
             <a
-              href="https://drive.google.com/file/d/1LK7qLjydexOK7Q2PtXc1nL1cg8gJfNui/view?usp=sharing"
+              href="https://drive.google.com/file/d/1NgOjH0-KvMqrOnNicrDW9JjD5jYMX5_G/view"
               data-testid="contact-resume"
               target="_blank"
               rel="noreferrer"
