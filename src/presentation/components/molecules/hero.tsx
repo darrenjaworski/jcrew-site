@@ -107,11 +107,11 @@ export const Hero = () => {
   const [imageRef, setImageRef] = useState(0);
 
   useEffect(() => {
-    // const interval = setInterval(() => {
-    //   const numberOfImages = images.length;
-    //   setImageRef((index) => (index + 1 >= numberOfImages ? 0 : index + 1));
-    // }, BG_LOOP_TIME);
-    // return () => clearInterval(interval);
+    const interval = setInterval(() => {
+      const numberOfImages = images.length;
+      setImageRef((index) => (index + 1 >= numberOfImages ? 0 : index + 1));
+    }, BG_LOOP_TIME);
+    return () => clearInterval(interval);
   }, []);
 
   const { url, mode, credit, mobileAlignment } = images[imageRef];
