@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "https://julianne.media/static/css/main.4a1aa7da.css",
-    "main.js": "https://julianne.media/static/js/main.da65258b.js",
+    "main.js": "https://julianne.media/static/js/main.f9894ef4.js",
     "static/js/787.2de2c314.chunk.js": "https://julianne.media/static/js/787.2de2c314.chunk.js",
     "static/media/carousel.jpg": "https://julianne.media/static/media/carousel.41d950c54380c1f240ab.jpg",
     "static/media/masterclass.jpg": "https://julianne.media/static/media/masterclass.a16f1f3dcd027a82e713.jpg",
     "static/media/carousel.png": "https://julianne.media/static/media/carousel.3883440cdec3a323e0d6.png",
+    "static/media/bio-image.jpg": "https://julianne.media/static/media/bio-image.923b4ff6692c89af80bb.jpg",
     "static/media/paseo.jpg": "https://julianne.media/static/media/paseo.4064253578341bd633ca.jpg",
     "static/media/oklahoma.png": "https://julianne.media/static/media/oklahoma.43d9535e7d8d17dc5929.png",
     "static/media/yes.jpg": "https://julianne.media/static/media/yes.da61e9dfdbcca96fe844.jpg",
@@ -16,11 +17,11 @@
     "static/media/slick.woff": "https://julianne.media/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://julianne.media/index.html",
     "main.4a1aa7da.css.map": "https://julianne.media/static/css/main.4a1aa7da.css.map",
-    "main.da65258b.js.map": "https://julianne.media/static/js/main.da65258b.js.map",
+    "main.f9894ef4.js.map": "https://julianne.media/static/js/main.f9894ef4.js.map",
     "787.2de2c314.chunk.js.map": "https://julianne.media/static/js/787.2de2c314.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a1aa7da.css",
-    "static/js/main.da65258b.js"
+    "static/js/main.f9894ef4.js"
   ]
 }
