@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import bioImage from "../../imgs/bio-image.jpg";
 
 const BiographyContainer = styled.div`
   width: 50%;
@@ -14,6 +15,17 @@ const BiographyContainer = styled.div`
     max-width: 100%;
     padding: 1rem;
   }
+`;
+
+const BioImage = styled.div`
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: url("${bioImage}");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 `;
 
 export const Biography = () => {
@@ -45,8 +57,12 @@ export const Biography = () => {
           <li>Workshopping and performing new works</li>
         </ul>
       </BiographyContainer>
-      <div className="split container row justify-centered align-items-center">
+      <div
+        className="split container row justify-centered align-items-center"
+        style={{ flexDirection: "column" }}
+      >
         <h2 data-testid="bio-title">Biography</h2>
+        <BioImage />
       </div>
     </section>
   );
