@@ -119,7 +119,7 @@ export const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setImageOpacity(0.15);
+      setImageOpacity(0.01);
       setTimeout(() => {
         const numberOfImages = images.length;
         setImageRef((index) => (index + 1 >= numberOfImages ? 0 : index + 1));
