@@ -1,13 +1,13 @@
 name: playwright
 
 concurrency:
-  group: playwright-${{ github.head_ref || github.run_id }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 on:
   workflow_run:
     workflows: [gh page deploy]
-    types: 
+    types:
       - completed
   schedule:
     - cron: 0 */2 * * *

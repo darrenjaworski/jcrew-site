@@ -1,7 +1,7 @@
 name: gh page deploy
 
 concurrency:
-  group: gh-pages-${{ github.head_ref || github.run_id }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 on:
