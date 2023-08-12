@@ -1,8 +1,9 @@
 import styled from "@emotion/styled";
 import { useEffect, useState } from "react";
-import carousel from "../../imgs/carousel.jpg";
-import masterclass from "../../imgs/masterclass.jpg";
-import paseoHero from "../../imgs/paseo.jpg";
+import carouselBlue from "../../imgs/hero/carousel-blue-dress.jpg";
+import carousel from "../../imgs/hero/carousel.jpg";
+import masterclass from "../../imgs/hero/masterclass.jpg";
+import paseoHero from "../../imgs/hero/paseo.jpg";
 
 enum HeroImageMode {
   light,
@@ -39,6 +40,11 @@ const images: ImageData[] = [
     url: masterclass,
     credit:
       "Miki Galloway - Masterclass at Lyric Theatre of Oklahoma with Natalie Cordone",
+    mode: HeroImageMode.dark,
+  },
+  {
+    url: carouselBlue,
+    credit: "Miki Galloway - Carousel at Lyric Theatre of Oklahoma",
     mode: HeroImageMode.dark,
   },
 ];
@@ -110,7 +116,7 @@ const HeroImageCredit = styled.div`
   opacity: 0.25;
 `;
 
-const BG_LOOP_TIME = 10000;
+const BG_LOOP_TIME = 3000;
 const IMAGE_FADE_TIME = 600;
 
 export const Hero = () => {
