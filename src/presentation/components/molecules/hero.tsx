@@ -39,7 +39,7 @@ const images: ImageData[] = [
     url: masterclass,
     credit:
       "Miki Galloway - Masterclass at Lyric Theatre of Oklahoma with Natalie Cordone",
-    mode: HeroImageMode.light,
+    mode: HeroImageMode.dark,
   },
 ];
 
@@ -48,12 +48,21 @@ interface HeroImageProps {
   mobileAlignment?: MobileAlignment;
 }
 
-const HeroBGImage = styled.section<HeroImageProps>`
+const HeroSection = styled.section`
   height: 100%;
   max-height: 1000px;
-  background: #ffffff url(${(props) => props.image}) no-repeat top center;
-  background-size: cover;
   position: relative;
+`;
+
+const HeroImage = styled.div<HeroImageProps>`
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000000 url(${(props) => props.image}) no-repeat top center;
+  background-size: cover;
+  transition: opacity 0.6s ease-in-out;
   @media (max-width: 850px) {
     background-position-x: ${(props) =>
       // @ts-ignore
@@ -102,14 +111,20 @@ const HeroImageCredit = styled.div`
 `;
 
 const BG_LOOP_TIME = 10000;
+const IMAGE_FADE_TIME = 600;
 
 export const Hero = () => {
   const [imageRef, setImageRef] = useState(0);
+  const [imageOpacity, setImageOpacity] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const numberOfImages = images.length;
-      setImageRef((index) => (index + 1 >= numberOfImages ? 0 : index + 1));
+      setImageOpacity(0.15);
+      setTimeout(() => {
+        const numberOfImages = images.length;
+        setImageRef((index) => (index + 1 >= numberOfImages ? 0 : index + 1));
+        setImageOpacity(1);
+      }, IMAGE_FADE_TIME);
     }, BG_LOOP_TIME);
     return () => clearInterval(interval);
   }, []);
@@ -117,7 +132,12 @@ export const Hero = () => {
   const { url, mode, credit, mobileAlignment } = images[imageRef];
 
   return (
-    <HeroBGImage image={url} mobileAlignment={mobileAlignment}>
+    <HeroSection>
+      <HeroImage
+        image={url}
+        mobileAlignment={mobileAlignment}
+        style={{ opacity: imageOpacity }}
+      />
       <HeroTextContainer>
         <HeroHeading mode={mode} data-testid="hero-text">
           Julianne Reynolds
@@ -125,6 +145,6 @@ export const Hero = () => {
         <HeroSubHeading mode={mode}>Performer & Teacher</HeroSubHeading>
       </HeroTextContainer>
       <HeroImageCredit>{credit}</HeroImageCredit>
-    </HeroBGImage>
+    </HeroSection>
   );
 };
