@@ -3,6 +3,7 @@ import backstageImg from "../../imgs/media/backstage.jpg";
 import carouselImg from "../../imgs/media/carousel.jpg";
 import masterclassImg from "../../imgs/media/masterclass.jpg";
 import oklahomanImg from "../../imgs/media/oklahoman.jpg";
+import paseoImg from "../../imgs/media/paseo.jpg";
 import philImg from "../../imgs/media/phil.jpg";
 import soundImg from "../../imgs/media/sound.jpg";
 import { ZoomImage } from "../atoms/zoomImage";
@@ -72,6 +73,7 @@ const VideoLayout = styled.div`
 
 const VideoHeading = styled.h4`
   font-size: 1.25rem;
+  margin-top: 0.25rem;
   margin-bottom: 0.5rem;
 `;
 
@@ -97,7 +99,6 @@ const Media = () => {
       <FlexContainer>
         <SplitLayout>
           <VideoLayout>
-            <VideoHeading>Vocal Reel</VideoHeading>
             <IframeWrapper>
               <iframe
                 width="560"
@@ -110,11 +111,9 @@ const Media = () => {
                 allowfullscreen
               ></iframe>
             </IframeWrapper>
+            <VideoHeading>Vocal Reel</VideoHeading>
           </VideoLayout>
           <VideoLayout>
-            <VideoHeading>
-              "Never Enough" from <i>The Greatest Showman</i>
-            </VideoHeading>
             <IframeWrapper>
               <iframe
                 width="560"
@@ -127,12 +126,13 @@ const Media = () => {
                 allowfullscreen
               ></iframe>
             </IframeWrapper>
+            <VideoHeading>
+              "Never Enough" from <i>The Greatest Showman</i>, featuring the
+              Oklahoma City Philharmonic Orchestra
+            </VideoHeading>
           </VideoLayout>
         </SplitLayout>
         <VideoLayout>
-          <VideoHeading>
-            "Bring Him Home" from <i>Les Misérables</i>
-          </VideoHeading>
           <IframeWrapper>
             <iframe
               width="560"
@@ -145,6 +145,10 @@ const Media = () => {
               allowfullscreen
             ></iframe>
           </IframeWrapper>
+          <VideoHeading>
+            "Bring Him Home" from <i>Les Misérables</i> featuring the St. Luke's
+            Methodist Church Orchestra
+          </VideoHeading>
         </VideoLayout>
       </FlexContainer>
       <MediaHeading style={{ paddingTop: "6rem" }}>Media Gallery</MediaHeading>
@@ -170,8 +174,8 @@ const Media = () => {
         <ItemCenter>
           <ReviewHighlight>
             "Caskey and Reynolds... establish both a crackling chemistry and
-            their vocal chops with <i>If I loved You</i>... and she lifts the
-            wistful <i>What's the Use of Wond'rin</i> to great heights." -{" "}
+            their vocal chops with 'If I Loved You'... and she lifts the wistful{" "}
+            'What's the Use of Wond'rin' to great heights." -{" "}
             <a
               href="https://www.oklahoman.com/story/entertainment/2022/07/08/dazzling-classic-carousel-worth-a-whirl-for-okc-musical-theater-fans/65368129007/"
               target="_blank"
@@ -183,13 +187,17 @@ const Media = () => {
         </ItemCenter>
         <ZoomImage
           url={philImg}
-          altText="Julianne Reynolds performing with the Philharmonic for the fourth of july."
+          altText="Julianne Reynolds performing with the Philharmonic for the fourth of July."
         />
         <SplitLayout>
           <FlexContainer>
             <ZoomImage
               url={soundImg}
-              altText="Julianne Reynolds performing as a nun in the Sound of Music"
+              altText="Julianne Reynolds performing as a nun in the Sound of Music."
+            />
+            <ZoomImage
+              url={paseoImg}
+              altText="Julianne Reynolds standing in front of a window."
             />
           </FlexContainer>
           <div>
@@ -234,6 +242,7 @@ const Media = () => {
           Miki Galloway for Lyric Theatre of Oklahoma's{" "}
           <i>The Sound of Music</i> (2023)
         </li>
+        <li>Heather O'Brien Photography</li>
         <li>
           Bailey Maxwell backstage photograph at Lyric Theatre of Oklahoma's{" "}
           <i>The Sound of Music</i> (2023)

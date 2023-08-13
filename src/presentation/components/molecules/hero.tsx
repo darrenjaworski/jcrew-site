@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import carouselBlue from "../../imgs/hero/carousel-blue-dress.jpg";
 import carousel from "../../imgs/hero/carousel.jpg";
 import masterclass from "../../imgs/hero/masterclass.jpg";
-import paseoHero from "../../imgs/hero/paseo.jpg";
 
 enum HeroImageMode {
   light,
@@ -25,12 +24,6 @@ enum MobileAlignment {
 }
 
 const images: ImageData[] = [
-  {
-    url: paseoHero,
-    credit: "Heather O'Brien Photography",
-    mode: HeroImageMode.light,
-    mobileAlignment: MobileAlignment.left,
-  },
   {
     url: carousel,
     credit: "Miki Galloway - Carousel at Lyric Theatre of Oklahoma",
