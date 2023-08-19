@@ -71,7 +71,7 @@ const VideoLayout = styled.div`
   width: 100%;
 `;
 
-const VideoHeading = styled.h4`
+const VideoHeading = styled.p`
   font-size: 1.25rem;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
