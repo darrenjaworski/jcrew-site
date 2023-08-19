@@ -75,6 +75,7 @@ const VideoHeading = styled.h4`
   font-size: 1.25rem;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
+  font-weight: normal;
 `;
 
 const IframeWrapper = styled.div`
