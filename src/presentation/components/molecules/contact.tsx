@@ -57,10 +57,7 @@ export const Contact = () => {
         </div>
         <div className="contact_block">
           <h3>Voice Lessons</h3>
-          <p>
-            I am available to teach private lessons in person or virtually, and
-            am a proud affiliate of Kismet Arts Collective OKC
-          </p>
+          <p>I am available to teach private lessons in person or virtually.</p>
           <p>
             I have experience teaching students of all ages and across multiple
             styles of singing.
