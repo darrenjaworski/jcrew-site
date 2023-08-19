@@ -106,9 +106,9 @@ const Media = () => {
                 src="https://www.youtube.com/embed/3Vn0vHawSKU"
                 title="YouTube video player"
                 // @ts-ignore
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </IframeWrapper>
             <VideoHeading>Vocal Reel</VideoHeading>
@@ -121,9 +121,9 @@ const Media = () => {
                 src="https://www.youtube.com/embed/p80Cv-0bhMs"
                 title="YouTube video player"
                 // @ts-ignore
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </IframeWrapper>
             <VideoHeading>
@@ -140,9 +140,9 @@ const Media = () => {
               src="https://www.youtube.com/embed/_9MoT6OwE_4"
               title="YouTube video player"
               // @ts-ignore
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </IframeWrapper>
           <VideoHeading>

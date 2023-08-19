@@ -5,6 +5,10 @@
 import { matchers } from "@emotion/jest";
 import "@testing-library/jest-dom";
 
+jest.mock("./presentation/components/atoms/zoomImage", () => ({
+  ZoomImage: () => <h1>zoom</h1>,
+}));
+
 window.matchMedia =
   window.matchMedia ||
   function () {
