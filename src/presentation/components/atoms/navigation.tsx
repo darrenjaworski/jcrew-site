@@ -52,6 +52,14 @@ export const Navigation = () => {
         <NavListItem>
           <NavLink href="#contact">Contact</NavLink>
         </NavListItem>
+        <NavListItem>
+          <NavLink
+            target="_blank"
+            href="https://drive.google.com/file/d/1NgOjH0-KvMqrOnNicrDW9JjD5jYMX5_G/view"
+          >
+            Résumé
+          </NavLink>
+        </NavListItem>
       </NavList>
     </Nav>
   );
