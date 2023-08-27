@@ -13,7 +13,7 @@ const NavList = styled.ul`
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
 `;
 
 const NavListItem = styled.li`
