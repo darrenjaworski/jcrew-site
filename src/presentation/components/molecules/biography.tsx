@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import bioImage from "../../imgs/bio-image.jpg";
+import bioImage from "../../imgs/bio-image-2.jpg";
 
 const BiographyContainer = styled.div`
   width: 50%;
