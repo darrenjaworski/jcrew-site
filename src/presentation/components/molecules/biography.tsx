@@ -42,25 +42,20 @@ export const Biography = () => {
       <BiographyContainer>
         <p data-testid="bio-text">
           I’m Julianne, a New Mexico-raised, Oklahoma City University-trained
-          singer and teaching artist. I am a devotee of the craft of singing,
-          the therapeutic process of learning to take up space on stage, and the
-          transformative power of the individual and collective artist’s
-          journey. I love stepping up to a challenge and working on new
-          projects, and have made a professional career as a cross-genre
-          interpreter of plays, musicals, operas, and theatre for young
-          audiences. I live with natural curiosity and investment in the artists
-          around me, and believe in working in a way that brings out the best in
-          everyone. You can count on me to bring presence, ideas, hard work, and
-          inevitable silliness into every room.
+          performer and teaching artist. I am a devotee of the craft of singing,
+          the transformative power of learning to take up space on stage, and
+          the beauty of the individual and collective artist’s journey. I am
+          happiest when I’m connecting with other artists, and thrive in spaces
+          that value stretching, nurture, and playfulness.
         </p>
-        {/* <ul>
-          <li>Performing live in musicals, operas, plays and concerts</li>
-          <li>Acting on camera</li>
-          <li>Opportunities to assistant direct stage musicals or plays</li>
-          <li>Voice acting and voice over work</li>
-          <li>Teaching voice lessons virtually or in person</li>
-          <li>Workshopping and performing new works</li>
-        </ul> */}
+        <p>
+          Raised by a parent with disabilities, and as a neurodivergent artist
+          living with mental illness myself, I am a passionate advocate for
+          accessibility and trauma awareness in professional and educational
+          performing arts. I believe artists and audience members of all ages,
+          abilities, bodies, and brain chemistries should get to experience the
+          therapeutic and healing gifts that only live theatre can give.
+        </p>
       </BiographyContainer>
       <div
         className="split container row justify-centered align-items-center"

@@ -24,6 +24,10 @@ const ContactHeadingContainer = styled.div`
   }};
 `;
 
+const HeadshotLink = styled.a`
+  display: block;
+`;
+
 export const Contact = () => {
   return (
     <section className="julianne_contact container row" id="contact">
@@ -35,13 +39,20 @@ export const Contact = () => {
           <h3>Performance Résumé</h3>
           <p>
             <a
-              href="https://drive.google.com/file/d/1NgOjH0-KvMqrOnNicrDW9JjD5jYMX5_G/view"
+              href="https://drive.google.com/file/d/1OCkqekl0kuVFR3dgkA7Df_yXR9RBI8bQ/view"
               data-testid="contact-resume"
               target="_blank"
               rel="noreferrer"
             >
               Download my Performance Résumé
             </a>
+            <HeadshotLink
+              href="https://drive.google.com/file/d/1VPZQCVgWbfTjWZYXmxVEM5-nvjdiEffU/view"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download my headshot
+            </HeadshotLink>
           </p>
         </div>
         <div className="contact_block">
