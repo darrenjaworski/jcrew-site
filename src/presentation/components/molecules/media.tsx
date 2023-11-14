@@ -174,15 +174,18 @@ const Media = () => {
         </SplitLayout>
         <ItemCenter>
           <ReviewHighlight>
-            "Caskey and Reynolds... establish both a crackling chemistry and
-            their vocal chops with 'If I Loved You'... and she lifts the wistful{" "}
-            'What's the Use of Wond'rin' to great heights." -{" "}
+            "The principal singers have soaring vocals that are powerful and
+            breathtaking. Julianne Reynolds is angelic and loving as Julie
+            Jordan... The vocal abilities of Caskey and Reynolds are
+            unparalleled... There's no denying the talents on stage are
+            unmatched anywhere, and this cast could easily be found on a
+            Broadway stage." -{" "}
             <a
-              href="https://www.oklahoman.com/story/entertainment/2022/07/08/dazzling-classic-carousel-worth-a-whirl-for-okc-musical-theater-fans/65368129007/"
+              href="https://www.broadwayworld.com/oklahoma/article/Review-Lyric-Theatres-CAROUSEL-Dazzles-on-the-Civic-Center-stage-20220707"
               target="_blank"
               rel="noreferrer"
             >
-              Brandy Mcdonnell, The Oklahoman
+              Adrienne Proctor, BroadwayWorld
             </a>
           </ReviewHighlight>
         </ItemCenter>
@@ -210,18 +213,15 @@ const Media = () => {
         </SplitLayout>
         <ItemCenter>
           <ReviewHighlight>
-            "The principal singers have soaring vocals that are powerful and
-            breathtaking. Julianne Reynolds is angelic and loving as Julie
-            Jordan... The vocal abilities of Caskey and Reynolds are
-            unparalleled... There's no denying the talents on stage are
-            unmatched anywhere, and this cast could easily be found on a
-            Broadway stage." -{" "}
+            "Caskey and Reynolds... establish both a crackling chemistry and
+            their vocal chops with 'If I Loved You'... and she lifts the wistful{" "}
+            'What's the Use of Wond'rin' to great heights." -{" "}
             <a
-              href="https://www.broadwayworld.com/oklahoma/article/Review-Lyric-Theatres-CAROUSEL-Dazzles-on-the-Civic-Center-stage-20220707"
+              href="https://www.oklahoman.com/story/entertainment/2022/07/08/dazzling-classic-carousel-worth-a-whirl-for-okc-musical-theater-fans/65368129007/"
               target="_blank"
               rel="noreferrer"
             >
-              Adrienne Proctor, BroadwayWorld
+              Brandy Mcdonnell, The Oklahoman
             </a>
           </ReviewHighlight>
         </ItemCenter>
