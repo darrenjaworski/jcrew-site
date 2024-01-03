@@ -138,7 +138,7 @@ const Media = () => {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/_9MoT6OwE_4"
+              src="https://www.youtube.com/embed/WL3TQGU6GBI"
               title="YouTube video player"
               // @ts-ignore
               frameBorder="0"
@@ -147,8 +147,7 @@ const Media = () => {
             ></iframe>
           </IframeWrapper>
           <VideoHeading>
-            "Bring Him Home" from <i>Les Misérables</i> featuring the St. Luke's
-            Methodist Church Orchestra
+            "Not A Day Goes By" from <i>Merrily We Roll Along</i>
           </VideoHeading>
         </VideoLayout>
       </FlexContainer>
