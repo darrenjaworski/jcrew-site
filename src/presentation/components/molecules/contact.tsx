@@ -36,10 +36,10 @@ export const Contact = () => {
       </ContactHeadingContainer>
       <ContactContainer>
         <div className="contact_block">
-          <h3>Performance Résumé</h3>
+          <h3>Resources</h3>
           <p>
             <a
-              href="https://drive.google.com/file/d/1OCkqekl0kuVFR3dgkA7Df_yXR9RBI8bQ/view"
+              href="https://drive.google.com/file/d/1bIevVlfmdeaNgMVYG1teTZfKG55pXr1g/view"
               data-testid="contact-resume"
               target="_blank"
               rel="noreferrer"
@@ -58,20 +58,28 @@ export const Contact = () => {
         <div className="contact_block">
           <h3>Reach Me</h3>
           <p>
-            <a
-              href="mailto:julianne.e.reynolds@gmail.com"
+            Represented by Resolute Artists Agency
+            <HeadshotLink
+              href="mailto:team@resoluteartistsagency.com"
               data-testid="contact-email"
             >
-              julianne.e.reynolds@gmail.com
-            </a>
+              team@resoluteartistsagency.com
+            </HeadshotLink>
+            <a href="tel:212.739.7856">212.739.7856</a>
           </p>
         </div>
         <div className="contact_block">
           <h3>Voice Lessons</h3>
-          <p>I am available to teach private lessons in person or virtually.</p>
           <p>
-            I have experience teaching students of all ages and across multiple
+            I am available to teach private lessons in person or virtually. I
+            have experience teaching students of all ages and across multiple
             styles of singing.
+          </p>
+          <p>
+            For more information about lessons, please email me at{" "}
+            <a href="mailto:julianne.e.reynolds@gmail.com">
+              julianne.e.reynolds@gmail.com
+            </a>
           </p>
         </div>
       </ContactContainer>
