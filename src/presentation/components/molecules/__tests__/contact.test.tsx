@@ -8,6 +8,6 @@ describe("contact", () => {
     const email = screen.getByTestId("contact-email");
 
     expect(email).toBeInTheDocument();
-    expect(email.textContent).toEqual("julianne.e.reynolds@gmail.com");
+    expect(email.textContent).toEqual("team@resoluteartistsagency.com");
   });
 });
