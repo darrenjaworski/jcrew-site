@@ -96,7 +96,9 @@ const IframeWrapper = styled.div`
 const Media = () => {
   return (
     <MediaSection id="media">
-      <MediaHeading>Performance Gallery</MediaHeading>
+      <MediaHeading data-testid="media-header">
+        Performance Gallery
+      </MediaHeading>
       <FlexContainer>
         <SplitLayout>
           <VideoLayout>
@@ -104,7 +106,7 @@ const Media = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/2IPYXwDAA5U"
+                src="https://www.youtube.com/embed/laa2Spvu9qI"
                 title="YouTube video player"
                 // @ts-ignore
                 frameBorder="0"

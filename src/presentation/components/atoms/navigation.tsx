@@ -55,13 +55,13 @@ export const Navigation = () => {
     <Nav data-testid={"navigation-container"}>
       <NavList>
         <NavListItem>
-          <NavLink href="#biography">Biography</NavLink>
+          <NavLink href="#biography" data-testid="biography">Biography</NavLink>
         </NavListItem>
         <NavListItem>
-          <NavLink href="#media">Media</NavLink>
+          <NavLink href="#media" data-testid="media">Media</NavLink>
         </NavListItem>
         <NavListItem>
-          <NavLink href="#contact">Contact</NavLink>
+          <NavLink href="#contact" data-testid="contact">Contact</NavLink>
         </NavListItem>
         <NavListItem>
           <NavLink

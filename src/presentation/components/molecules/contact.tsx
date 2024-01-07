@@ -32,7 +32,7 @@ export const Contact = () => {
   return (
     <section className="julianne_contact container row" id="contact">
       <ContactHeadingContainer className="split container row justify-centered align-items-center">
-        <h2>Contact</h2>
+        <h2 data-testid="contact-header">Contact</h2>
       </ContactHeadingContainer>
       <ContactContainer>
         <div className="contact_block">
