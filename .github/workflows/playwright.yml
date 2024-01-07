@@ -1,4 +1,4 @@
-name: playwright
+name: e2e tests
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  test:
+  e2e-tests:
     timeout-minutes: 20
     runs-on: ubuntu-latest
     container:
