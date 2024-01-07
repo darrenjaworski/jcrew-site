@@ -6,7 +6,7 @@ concurrency:
 
 on:
   workflow_run:
-    workflows: [gh page deploy]
+    workflows: [pages-build-deployment]
     types:
       - completed
   workflow_dispatch:
