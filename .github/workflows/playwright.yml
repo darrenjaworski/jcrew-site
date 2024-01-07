@@ -5,13 +5,15 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  deployment_status:
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types:
+      - completed
   workflow_dispatch:
 
 jobs:
   test:
     timeout-minutes: 20
-    if: github.event.deployment_status.state == 'success' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.40.0-jammy
