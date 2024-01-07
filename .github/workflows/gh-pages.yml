@@ -5,10 +5,10 @@ concurrency:
   cancel-in-progress: true
 
 on:
-  push:
-    paths:
-      - "src/**"
-      - "src/public/**"
+  workflow_run:
+    workflows: [tests]
+    types:
+      - completed
   workflow_dispatch:
 
 jobs:
