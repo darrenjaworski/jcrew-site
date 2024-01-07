@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "test:e2e": "npx playwright test",
     "test:e2e-update": "npx playwright test --update-snapshots",
-    "playwright:gen-snaps-ci": "docker run --rm --network host -v $(pwd):/work/ -w /work/ -it mcr.microsoft.com/playwright:v1.29.1-focal /bin/bash",
+    "playwright:gen-snaps-ci": "docker run -v $PWD:/jcrew-site -w /jcrew-site --rm -it mcr.microsoft.com/playwright:v1.40.0-jammy /bin/bash",
     "//run after command above": "npm i && npx playwright install --with-deps && npx playwright test --update-snapshots"
   },
   "eslintConfig": {
