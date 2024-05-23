@@ -6,7 +6,7 @@ concurrency:
 
 on:
   workflow_run:
-    workflows: [tests]
+    workflows: [unit tests]
     types:
       - completed
   workflow_dispatch:
