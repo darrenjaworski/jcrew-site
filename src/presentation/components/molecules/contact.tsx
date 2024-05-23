@@ -5,7 +5,7 @@ const ContactContainer = styled.div`
   max-width: 50%;
   display: inline-block;
   display: flex;
-  background-color: ${(props) => {
+  background-color: ${props => {
     // @ts-ignore
     return props.theme.colors.secondary;
   }};
@@ -18,7 +18,7 @@ const ContactContainer = styled.div`
   }
 `;
 const ContactHeadingContainer = styled.div`
-  background-color: ${(props) => {
+  background-color: ${props => {
     // @ts-ignore
     return props.theme.colors.secondary;
   }};
@@ -58,14 +58,24 @@ export const Contact = () => {
         <div className="contact_block">
           <h3>Reach Me</h3>
           <p>
-            Represented by Resolute Artists Agency
+            Center Stage Management
+            <HeadshotLink
+              href="mailto:christopher@csmanagementnyc.com"
+              data-testid="contact-email-manager"
+            >
+              christopher@csmanagementnyc.com
+            </HeadshotLink>
+            <a href="tel:646.876.9913">(646) 876-9913</a>
+          </p>
+          <p>
+            Resolute Artists Agency
             <HeadshotLink
               href="mailto:team@resoluteartistsagency.com"
               data-testid="contact-email"
             >
               team@resoluteartistsagency.com
             </HeadshotLink>
-            <a href="tel:212.739.7856">212.739.7856</a>
+            <a href="tel:212.739.7856">(212) 739-7856</a>
           </p>
         </div>
         <div className="contact_block">

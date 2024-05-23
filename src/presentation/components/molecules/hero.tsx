@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import carouselBlue from "../../imgs/hero/carousel-blue-dress.jpg";
 import carousel from "../../imgs/hero/carousel.jpg";
 import masterclass from "../../imgs/hero/masterclass.jpg";
+import okInteractive from "../../imgs/hero/oklahoma-interactive.jpg";
 
 enum HeroImageMode {
   light,
@@ -24,6 +25,12 @@ enum MobileAlignment {
 }
 
 const images: ImageData[] = [
+  {
+    url: okInteractive,
+    credit:
+      "Miki Galloway - Oklahoma! Interactive at Lyric Theatre of Oklahoma",
+    mode: HeroImageMode.dark,
+  },
   {
     url: carousel,
     credit: "Miki Galloway - Carousel at Lyric Theatre of Oklahoma",
@@ -59,11 +66,11 @@ const HeroImage = styled.div<HeroImageProps>`
   top: 0;
   right: 0;
   bottom: 0;
-  background: #000000 url(${(props) => props.image}) no-repeat top center;
+  background: #000000 url(${props => props.image}) no-repeat top center;
   background-size: cover;
   transition: opacity 0.6s ease-in-out;
   @media (max-width: 850px) {
-    background-position-x: ${(props) =>
+    background-position-x: ${props =>
       // @ts-ignore
       props?.mobileAlignment === MobileAlignment.left ? "80%" : "center"};
   }
@@ -73,7 +80,7 @@ const HeroHeading = styled.h1<{ mode: HeroImageMode }>`
   line-height: 1.5;
   margin: 0;
   font-weight: 400;
-  color: ${(props) => (props.mode === HeroImageMode.dark ? "white" : "black")};
+  color: ${props => (props.mode === HeroImageMode.dark ? "white" : "black")};
   @media (max-width: 750px) {
     font-size: 2.5rem;
   }
@@ -82,7 +89,7 @@ const HeroSubHeading = styled.h3<{ mode: HeroImageMode }>`
   line-height: 1.5;
   margin: 0;
   font-weight: 400;
-  color: ${(props) => (props.mode === HeroImageMode.dark ? "white" : "black")};
+  color: ${props => (props.mode === HeroImageMode.dark ? "white" : "black")};
   @media (max-width: 750px) {
     font-size: 2rem;
   }
@@ -121,7 +128,7 @@ export const Hero = () => {
       setImageOpacity(0.01);
       setTimeout(() => {
         const numberOfImages = images.length;
-        setImageRef((index) => (index + 1 >= numberOfImages ? 0 : index + 1));
+        setImageRef(index => (index + 1 >= numberOfImages ? 0 : index + 1));
         setImageOpacity(1);
       }, IMAGE_FADE_TIME);
     }, BG_LOOP_TIME);

@@ -3,13 +3,13 @@ import backstageImg from "../../imgs/media/backstage.jpg";
 import carouselImg from "../../imgs/media/carousel.jpg";
 import masterclassImg from "../../imgs/media/masterclass.jpg";
 import oklahomanImg from "../../imgs/media/oklahoman.jpg";
-import paseoImg from "../../imgs/media/paseo.jpg";
 import philImg from "../../imgs/media/phil.jpg";
 import soundImg from "../../imgs/media/sound.jpg";
+import yesMusical from "../../imgs/media/yes-musical.jpg";
 import { ZoomImage } from "../atoms/zoomImage";
 
 const MediaSection = styled.section`
-  background-color: ${(props) => {
+  background-color: ${props => {
     // @ts-ignore
     return props.theme.colors.primary;
   }};
@@ -189,30 +189,6 @@ const Media = () => {
               Adrienne Proctor, BroadwayWorld
             </a>
           </ReviewHighlight>
-        </ItemCenter>
-        <ZoomImage
-          url={philImg}
-          altText="Julianne Reynolds performing with the Philharmonic for the fourth of July."
-        />
-        <SplitLayout>
-          <FlexContainer>
-            <ZoomImage
-              url={soundImg}
-              altText="Julianne Reynolds performing as a nun in the Sound of Music."
-            />
-            <ZoomImage
-              url={paseoImg}
-              altText="Julianne Reynolds standing in front of a window."
-            />
-          </FlexContainer>
-          <div>
-            <ZoomImage
-              url={backstageImg}
-              altText="Julianne Reynolds backstage at the Sound of Music."
-            />
-          </div>
-        </SplitLayout>
-        <ItemCenter>
           <ReviewHighlight>
             "Caskey and Reynolds... establish both a crackling chemistry and
             their vocal chops with 'If I Loved You'... and she lifts the wistful{" "}
@@ -226,6 +202,32 @@ const Media = () => {
             </a>
           </ReviewHighlight>
         </ItemCenter>
+        <ZoomImage
+          url={philImg}
+          altText="Julianne Reynolds performing with the Philharmonic for the fourth of July."
+        />
+        <SplitLayout>
+          <FlexContainer>
+            <ZoomImage
+              url={soundImg}
+              altText="Julianne Reynolds performing as a nun in the Sound of Music."
+            />
+            {/* <ZoomImage
+              url={paseoImg}
+              altText="Julianne Reynolds standing in front of a window."
+            /> */}
+            <ZoomImage
+              url={yesMusical}
+              altText="Julianne reynolds performing in yes the musical"
+            />
+          </FlexContainer>
+          <div>
+            <ZoomImage
+              url={backstageImg}
+              altText="Julianne Reynolds backstage at the Sound of Music."
+            />
+          </div>
+        </SplitLayout>
       </FlexContainer>
       <CreditsHeading>Photo Credits</CreditsHeading>
       <CreditsList>
@@ -244,7 +246,7 @@ const Media = () => {
           Miki Galloway for Lyric Theatre of Oklahoma's{" "}
           <i>The Sound of Music</i> (2023)
         </li>
-        <li>Heather O'Brien Photography</li>
+        <li>Yes! The Musical</li>
         <li>
           Bailey Maxwell backstage photograph at Lyric Theatre of Oklahoma's{" "}
           <i>The Sound of Music</i> (2023)
