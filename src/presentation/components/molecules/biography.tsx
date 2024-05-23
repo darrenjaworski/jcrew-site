@@ -7,7 +7,7 @@ const BiographyContainer = styled.div`
   display: inline-block;
   padding: 3rem;
   min-height: 35rem;
-  background-color: ${(props) => {
+  background-color: ${props => {
     // @ts-ignore
     return props.theme.colors.secondary;
   }};
@@ -42,11 +42,12 @@ export const Biography = () => {
       <BiographyContainer>
         <p data-testid="bio-text">
           I’m Julianne, a New Mexico-raised, Oklahoma City University-trained
-          performer and teaching artist. I am a devotee of the craft of singing,
-          the transformative power of learning to take up space on stage, and
-          the beauty of the individual and collective artist’s journey. I am
-          happiest when I’m connecting with other artists, and thrive in spaces
-          that value stretching, nurture, and playfulness.
+          performer, musician and teaching artist. I am a devotee of the craft
+          of singing, the transformative power of learning to take up space on
+          stage, and the beauty of the individual and collective artist’s
+          journey. When I am not performing or teaching, you might find me
+          gaming with my husband Darren, and cuddling with my cats Toulouse and
+          Bingley.
         </p>
         <p>
           Raised by a parent with disabilities, and as a neurodivergent artist
@@ -55,6 +56,10 @@ export const Biography = () => {
           performing arts. I believe artists and audience members of all ages,
           abilities, bodies, and brain chemistries should get to experience the
           therapeutic and healing gifts that only live theatre can give.
+        </p>
+        <p>
+          I currently have residences in New York City and Oklahoma City, and am
+          represented by Center Stage Management and Resolute Artists Agency.
         </p>
       </BiographyContainer>
       <div
