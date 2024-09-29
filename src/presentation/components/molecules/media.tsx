@@ -106,21 +106,6 @@ const Media = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/laa2Spvu9qI"
-                title="YouTube video player"
-                // @ts-ignore
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </IframeWrapper>
-            <VideoHeading>Vocal Reel</VideoHeading>
-          </VideoLayout>
-          <VideoLayout>
-            <IframeWrapper>
-              <iframe
-                width="560"
-                height="315"
                 src="https://www.youtube.com/embed/HH5At63YmG0"
                 title="YouTube video player"
                 // @ts-ignore
@@ -231,6 +216,7 @@ const Media = () => {
       </FlexContainer>
       <CreditsHeading>Photo Credits</CreditsHeading>
       <CreditsList>
+        <li>Headshot and biography photos by Leslie Hassler Studio, with makeup by Juliet Jane and retouching by Fyzal J</li>
         <li>
           Photo by Miki Galloway for Lyric Theatre of Oklahoma's{" "}
           <i> Master Class</i> (2021) starring Natalie Cordone as Maria Callas

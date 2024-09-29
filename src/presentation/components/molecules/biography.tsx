@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import bioImage from "../../imgs/bio-image-2.jpg";
+import bioImage from "../../imgs/bio-image-3.jpg";
 
 const BiographyContainer = styled.div`
   width: 50%;
@@ -58,8 +58,7 @@ export const Biography = () => {
           therapeutic and healing gifts that only live theatre can give.
         </p>
         <p>
-          I currently have residences in New York City and Oklahoma City, and am
-          represented by Center Stage Management and Resolute Artists Agency.
+          I currently have residences in New York City and Oklahoma City, and am represented by UIA Talent Agency in Theatrical, Film and TV.
         </p>
       </BiographyContainer>
       <div

@@ -5,9 +5,9 @@ import { Contact } from "../contact";
 describe("contact", () => {
   it("renders contact text", () => {
     renderComponentWithTheme(<Contact />);
-    const email = screen.getByTestId("contact-email");
+    const email = screen.getByTestId("contact-email-manager");
 
     expect(email).toBeInTheDocument();
-    expect(email.textContent).toEqual("team@resoluteartistsagency.com");
+    expect(email.textContent).toEqual("theatrical@uiatalent.com");
   });
 });

@@ -39,43 +39,25 @@ export const Contact = () => {
           <h3>Resources</h3>
           <p>
             <a
-              href="https://drive.google.com/file/d/1bIevVlfmdeaNgMVYG1teTZfKG55pXr1g/view"
+              href="https://drive.google.com/file/d/1UVRAucV2XZGoibcKIZOf0q8k1Pu37PtK/view?usp=drive_link"
               data-testid="contact-resume"
               target="_blank"
               rel="noreferrer"
             >
-              Download my Performance Résumé
+              Download Headshot and Resumé
             </a>
-            <HeadshotLink
-              href="https://drive.google.com/file/d/1VPZQCVgWbfTjWZYXmxVEM5-nvjdiEffU/view"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Download my headshot
-            </HeadshotLink>
           </p>
         </div>
         <div className="contact_block">
           <h3>Reach Me</h3>
           <p>
-            Center Stage Management
+          UIA Talent Agency
             <HeadshotLink
-              href="mailto:christopher@csmanagementnyc.com"
+              href="mailto:theatrical@uiatalent.com"
               data-testid="contact-email-manager"
             >
-              christopher@csmanagementnyc.com
+              theatrical@uiatalent.com
             </HeadshotLink>
-            <a href="tel:646.876.9913">(646) 876-9913</a>
-          </p>
-          <p>
-            Resolute Artists Agency
-            <HeadshotLink
-              href="mailto:team@resoluteartistsagency.com"
-              data-testid="contact-email"
-            >
-              team@resoluteartistsagency.com
-            </HeadshotLink>
-            <a href="tel:212.739.7856">(212) 739-7856</a>
           </p>
         </div>
         <div className="contact_block">
