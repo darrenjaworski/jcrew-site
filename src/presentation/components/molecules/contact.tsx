@@ -44,7 +44,7 @@ export const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Download Headshot and Resumé
+              Download Headshot and Résumé
             </a>
           </p>
         </div>

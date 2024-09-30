@@ -66,7 +66,7 @@ export const Navigation = () => {
         <NavListItem>
           <NavLink
             target="_blank"
-            href="https://drive.google.com/file/d/1bIevVlfmdeaNgMVYG1teTZfKG55pXr1g/view"
+            href="https://drive.google.com/file/d/1UVRAucV2XZGoibcKIZOf0q8k1Pu37PtK/view?usp=drive_link"
           >
             Résumé
           </NavLink>
