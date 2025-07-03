@@ -106,7 +106,7 @@ const Media = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/HH5At63YmG0"
+                src="https://youtu.be/3Y97SEG7_xg"
                 title="YouTube video player"
                 // @ts-ignore
                 frameBorder="0"
@@ -115,8 +115,7 @@ const Media = () => {
               ></iframe>
             </IframeWrapper>
             <VideoHeading>
-              “The Prayer” featuring tenor J.Warren Mitchell and the Oklahoma
-              City Philharmonic Orchestra
+              “What Baking Can Do" from <i></i>Waitress</i> accompanied by Matthew Stephenson
             </VideoHeading>
           </VideoLayout>
         </SplitLayout>
@@ -125,7 +124,7 @@ const Media = () => {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/WL3TQGU6GBI"
+              src="https://youtu.be/9bVsvoPwEVU"
               title="YouTube video player"
               // @ts-ignore
               frameBorder="0"
@@ -134,7 +133,7 @@ const Media = () => {
             ></iframe>
           </IframeWrapper>
           <VideoHeading>
-            "Not A Day Goes By" from <i>Merrily We Roll Along</i>
+            "Someone Woke Up" from <i>Do I Hear A Waltz?</i> accompanied by Reagan Castille
           </VideoHeading>
         </VideoLayout>
       </FlexContainer>
