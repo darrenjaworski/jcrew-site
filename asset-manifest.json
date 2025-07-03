@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://julianne.media/static/css/main.6c043c95.css",
-    "main.js": "https://julianne.media/static/js/main.279478fd.js",
+    "main.js": "https://julianne.media/static/js/main.a0b23f61.js",
     "static/js/453.044a0dfa.chunk.js": "https://julianne.media/static/js/453.044a0dfa.chunk.js",
     "static/media/carousel.jpg": "https://julianne.media/static/media/carousel.ed973ab7f20973d90d05.jpg",
     "static/media/masterclass.jpg": "https://julianne.media/static/media/masterclass.9cc4e93834490888d34f.jpg",
@@ -15,11 +15,11 @@
     "static/media/bio-image-3.jpg": "https://julianne.media/static/media/bio-image-3.bf913966b4102d33d0f8.jpg",
     "index.html": "https://julianne.media/index.html",
     "main.6c043c95.css.map": "https://julianne.media/static/css/main.6c043c95.css.map",
-    "main.279478fd.js.map": "https://julianne.media/static/js/main.279478fd.js.map",
+    "main.a0b23f61.js.map": "https://julianne.media/static/js/main.a0b23f61.js.map",
     "453.044a0dfa.chunk.js.map": "https://julianne.media/static/js/453.044a0dfa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c043c95.css",
-    "static/js/main.279478fd.js"
+    "static/js/main.a0b23f61.js"
   ]
 }
