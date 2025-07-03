@@ -50,14 +50,6 @@ export const Biography = () => {
           Bingley.
         </p>
         <p>
-          Raised by a parent with disabilities, and as a neurodivergent artist
-          living with mental illness myself, I am a passionate advocate for
-          accessibility and trauma awareness in professional and educational
-          performing arts. I believe artists and audience members of all ages,
-          abilities, bodies, and brain chemistries should get to experience the
-          therapeutic and healing gifts that only live theatre can give.
-        </p>
-        <p>
           I currently have residences in New York City and Oklahoma City, and am represented by UIA Talent Agency in Theatrical, Film and TV.
         </p>
       </BiographyContainer>
