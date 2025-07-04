@@ -133,7 +133,7 @@ const Media = () => {
             ></iframe>
           </IframeWrapper>
           <VideoHeading>
-            "Someone Woke Up" from <i>Do I Hear A Waltz?</i> accompanied by Reagan Castille
+            "Someone Woke Up" from <i>Do I Hear A Waltz?</i> accompanied by Reagan Castille filmed at The Chain Theatre NYC
           </VideoHeading>
         </VideoLayout>
       </FlexContainer>
