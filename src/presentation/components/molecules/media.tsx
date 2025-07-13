@@ -9,7 +9,7 @@ import yesMusical from "../../imgs/media/yes-musical.jpg";
 import { ZoomImage } from "../atoms/zoomImage";
 
 const MediaSection = styled.section`
-  background-color: ${props => {
+  background-color: ${(props) => {
     // @ts-ignore
     return props.theme.colors.primary;
   }};
@@ -115,7 +115,8 @@ const Media = () => {
               ></iframe>
             </IframeWrapper>
             <VideoHeading>
-              “What Baking Can Do" from <i></i>Waitress</i> accompanied by Matthew Stephenson
+              “What Baking Can Do" from <i>Waitress</i> accompanied by Matthew
+              Stephenson
             </VideoHeading>
           </VideoLayout>
         </SplitLayout>
@@ -133,7 +134,8 @@ const Media = () => {
             ></iframe>
           </IframeWrapper>
           <VideoHeading>
-            "Someone Woke Up" from <i>Do I Hear A Waltz?</i> accompanied by Reagan Castille filmed at The Chain Theatre NYC
+            "Someone Woke Up" from <i>Do I Hear A Waltz?</i> accompanied by
+            Reagan Castille filmed at The Chain Theatre NYC
           </VideoHeading>
         </VideoLayout>
       </FlexContainer>
@@ -215,7 +217,10 @@ const Media = () => {
       </FlexContainer>
       <CreditsHeading>Photo Credits</CreditsHeading>
       <CreditsList>
-        <li>Headshot and biography photos by Leslie Hassler Studio, with makeup by Juliet Jane and retouching by Fyzal J</li>
+        <li>
+          Headshot and biography photos by Leslie Hassler Studio, with makeup by
+          Juliet Jane and retouching by Fyzal J
+        </li>
         <li>
           Photo by Miki Galloway for Lyric Theatre of Oklahoma's{" "}
           <i> Master Class</i> (2021) starring Natalie Cordone as Maria Callas
