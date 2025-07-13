@@ -106,7 +106,7 @@ const Media = () => {
               <iframe
                 width="560"
                 height="315"
-                src="https://youtu.be/3Y97SEG7_xg"
+                src="https://www.youtube.com/embed/3Y97SEG7_xg?si=iPi5Eqi5i3k4lEvY"
                 title="YouTube video player"
                 // @ts-ignore
                 frameBorder="0"
@@ -125,7 +125,7 @@ const Media = () => {
             <iframe
               width="560"
               height="315"
-              src="https://youtu.be/9bVsvoPwEVU"
+              src="https://www.youtube.com/embed/9bVsvoPwEVU?si=dqDNcada0K8JnYOC"
               title="YouTube video player"
               // @ts-ignore
               frameBorder="0"
