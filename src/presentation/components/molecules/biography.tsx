@@ -41,16 +41,10 @@ export const Biography = () => {
     >
       <BiographyContainer>
         <p data-testid="bio-text">
-          I’m Julianne, a New Mexico-raised, Oklahoma City University-trained
-          performer, musician and teaching artist. I am a devotee of the craft
-          of singing, the transformative power of learning to take up space on
-          stage, and the beauty of the individual and collective artist’s
-          journey. When I am not performing or teaching, you might find me
-          gaming with my husband Darren, and cuddling with my cats Toulouse and
-          Bingley.
+      I’m Julianne, a New Mexico-raised, Oklahoma City University-trained actor, musician, and voice teacher. I am a devotee of the unique power of performance and collective creative expression, whether on stage, on screen, in rehearsal, or in a classroom. Nothing makes me happier than collaborating with others on a shared artistic vision. If I’m not performing or teaching, you might find me gaming, snapping Fujifilm photos with my husband Darren, or cuddling with my cat Bingley. 
         </p>
         <p>
-          I currently have residences in New York City and Oklahoma City, and am represented by UIA Talent Agency in Theatrical, Film and TV.
+          I currently have residences in New York City and Oklahoma City, and am represented by Christopher Silveri at Center Stage Management.
         </p>
       </BiographyContainer>
       <div
