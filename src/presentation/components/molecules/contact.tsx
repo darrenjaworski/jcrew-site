@@ -51,12 +51,12 @@ export const Contact = () => {
         <div className="contact_block">
           <h3>Reach Me</h3>
           <p>
-          UIA Talent Agency
+          Center Stage Management NYC
             <HeadshotLink
-              href="mailto:theatrical@uiatalent.com"
+              href="mailto:christopher@csmanagementnyc.com"
               data-testid="contact-email-manager"
             >
-              theatrical@uiatalent.com
+              christopher@csmanagementnyc.com
             </HeadshotLink>
           </p>
         </div>
